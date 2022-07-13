@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "NodeJS starter project template",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "npx prettier --check --write .",
+    "lint": "npx eslint .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamfarishirfan/nodejs-project-template.git"
+  },
+  "author": "@iamfarishirfan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamfarishirfan/nodejs-project-template/issues"
+  },
+  "homepage": "https://github.com/iamfarishirfan/nodejs-project-template#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1"
+  }
+}

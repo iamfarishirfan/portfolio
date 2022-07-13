@@ -1,0 +1,13 @@
+{
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": ["package-lock.json", "package.json"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
