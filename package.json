@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "fmt": "npx prettier --check --write .",
-    "lint": "npx eslint .",
+    "eslint": "npx eslint .",
     "dev": "webpack-dashboard -- webpack serve --config=build/webpack.dev.js --port=8000",
-    "tsc": "npx tsc --noEmit"
+    "tsc": "npx tsc --noEmit",
+    "lint": "npm run tsc && npm run eslint"
   },
   "repository": {
     "type": "git",

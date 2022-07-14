@@ -2,11 +2,14 @@
     "compilerOptions": {
         "target": "es2018",
         "moduleResolution": "node",
+        "module": "esnext",
         "strict": true,
         "strictPropertyInitialization": false,
         "allowSyntheticDefaultImports": true,
+        "jsx": "react",
         "baseUrl": ".",
         "paths": {
+            "component": ["component/*"],
             "app/*": ["app/*"],
             "css/*": ["css/*"]
         }
