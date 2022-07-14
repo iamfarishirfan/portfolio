@@ -6,7 +6,8 @@
   "scripts": {
     "fmt": "npx prettier --check --write .",
     "lint": "npx eslint .",
-    "start": "node ."
+    "dev": "webpack serve --config build/webpack.dev.js",
+    "tsc": "npx tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,15 @@
   },
   "homepage": "https://github.com/iamfarishirfan/nodejs-project-template#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.19.0",
-    "prettier": "^2.7.1"
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
   }
 }

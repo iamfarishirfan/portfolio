@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true
+    }
+}
