@@ -1,2 +1,2 @@
-import 'raf/raf/polyfill';
+import 'raf/polyfill';
 import 'core-js/full';

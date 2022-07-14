@@ -19,6 +19,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
         alias: {
+            component: resolve(root, 'component/'),
+            app: resolve(root, 'app/'),
             css: resolve(root, 'css/')
         }
     },

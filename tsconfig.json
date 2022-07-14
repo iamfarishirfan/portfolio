@@ -9,7 +9,7 @@
         "jsx": "react",
         "baseUrl": ".",
         "paths": {
-            "component": ["component/*"],
+            "component/*": ["component/*"],
             "app/*": ["app/*"],
             "css/*": ["css/*"]
         }
