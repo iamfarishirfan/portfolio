@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/iamfarishirfan/nodejs-project-template#readme",
   "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/three": "^0.141.0",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
     "copy-webpack-plugin": "^11.0.0",
@@ -40,5 +43,13 @@
     "webpack-dashboard": "^3.3.7",
     "webpack-dev-server": "^4.9.3",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@csstools/normalize.css": "^12.0.0",
+    "core-js": "^3.23.4",
+    "raf": "^3.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.142.0"
   }
 }

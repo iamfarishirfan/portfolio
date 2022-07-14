@@ -4,6 +4,11 @@
         "moduleResolution": "node",
         "strict": true,
         "strictPropertyInitialization": false,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "app/*": ["app/*"],
+            "css/*": ["css/*"]
+        }
     }
 }
